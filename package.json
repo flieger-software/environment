@@ -18,5 +18,18 @@
   "homepage": "https://github.com/flieger-software/environment#readme",
   "devDependencies": {
     "bower": "^1.6.5"
+  },
+  "window": {
+    "title": "sample",
+    "icon": "src/img/flieger.png",
+    "toolbar": false,
+    "frame": false,
+    "width": 800,
+    "height": 500,
+    "position": "center",
+    "min_width": 400,
+    "min_height": 200,
+    "max_width": 800,
+    "max_height": 600
   }
 }

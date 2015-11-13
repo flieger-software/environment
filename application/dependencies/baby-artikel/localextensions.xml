@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hybrisconfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="resources/schemas/extensions.xsd">
+    <extensions>
+
+        <path dir="${HYBRIS_BIN_DIR}" />
+
+        <extension name="mediaimportation" />
+
+        <!-- Flieger Commerce extensions -->
+        <extension name="heringfulfilmentprocess" />
+        <extension name="heringcore" />
+        <extension name="heringfacades" />
+        <extension name="heringstorefront" />
+        <extension name="heringcockpits" />
+        <extension name="heringstorefrontcommons" />
+        <extension name="fliegercommercecheckoutaddon" />
+        <extension name="heringtest" />
+        <extension name="textboxinfoaddon" />
+        <extension name="exacttarget" />
+        <extension name="notificationservices" />
+        <extension name="wishlist" />
+        <extension name="adyen" />
+       	<extension name="paypal" />
+        <extension name="fliegercommercecms" />
+        <extension name="bazaarvoice" />
+        <extension name="klarnapayment" />
+
+        <extension name="paypaladdon" />
+
+        <extension name="kpfamilycore" />
+        <extension name="kpfamilyhmc" />
+        <extension name="kpfamilycockpits" />
+        <extension name="kpfamilyservices" />
+
+        <extension name="storecatalogfeed" />
+        <extension name="pixicore" />
+        <extension name="pixiapi" />
+        <extension name="pixiwebservices" />
+        <extension name="newslettersubscription" />
+        <extension name="newsletteraddon" />
+        <extension name="bonussystem"/>
+        <extension name="bonussystemaddon"/>
+        <extension name="bonussystemhmc"/>
+		<extension name="amazonloginaddon" />
+		<extension name="babyartikelstore" />
+    </extensions>
+</hybrisconfig>
